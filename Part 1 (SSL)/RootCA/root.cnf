@@ -1,0 +1,18 @@
+[ req ]
+distinguished_name = my_info
+x509_extensions = v3_ca
+prompt = no
+
+[ my_info ]
+C = EG
+ST = Cairo
+L = Cairo
+O = MyOrg
+OU = MyUnit
+CN = MyRootCA
+
+[ v3_ca ]
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer
+basicConstraints = critical, CA:true
+keyUsage = critical, keyCertSign

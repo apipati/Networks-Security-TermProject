@@ -1,0 +1,2 @@
+05/22/25-20:06:06.487799 ,1,2000355,5,"ET CHAT IRC authorization message",TCP,192.168.179.136,6667,192.168.179.149,51308,5665,Misc activity,3,alert,Allow
+05/22/25-21:01:38.553509 ,1,2000355,5,"ET CHAT IRC authorization message",TCP,192.168.179.136,6667,192.168.179.149,59939,25011,Misc activity,3,alert,Allow
